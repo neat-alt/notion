@@ -1,0 +1,82 @@
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.5;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  .matrix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .quadrant {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .quadrant h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .quadrant h2 span {
+    margin-right: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    background-color: #f2f2f7;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1em;
+  }
+</style>
+<div class="container">
+  <h1>4분면 할 일 목록 📝</h1>
+  <div class="matrix">
+    <div class="quadrant">
+      <h2><span>🚨</span> 긴급하고 중요한 일</h2>
+      <ul>
+        <li>프로젝트 마감일 맞추기</li>
+        <li>중요 고객 미팅 준비</li>
+      </ul>
+    </div>
+    <div class="quadrant">
+      <h2><span>🎯</span> 긴급하지 않지만 중요한 일</h2>
+      <ul>
+        <li>장기 전략 계획 수립</li>
+        <li>건강 관리 (운동, 식단)</li>
+      </ul>
+    </div>
+    <div class="quadrant">
+      <h2><span>⏰</span> 긴급하지만 중요하지 않은 일</h2>
+      <ul>
+        <li>일부 회의 참석</li>
+        <li>긴급한 이메일 응답</li>
+      </ul>
+    </div>
+    <div class="quadrant">
+      <h2><span>🌟</span> 긴급하지도 중요하지도 않은 일</h2>
+      <ul>
+        <li>소셜 미디어 확인</li>
+        <li>비핵심 업무 정리</li>
+      </ul>
+    </div>
+  </div>
+</div>
